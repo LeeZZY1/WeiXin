@@ -1,0 +1,2 @@
+<map style="width:100%;height:300px" markers="{{markers}}"
+latitude="{{markers[0].latitude}}" longitude="{{markers[0].longitude}}"></map>

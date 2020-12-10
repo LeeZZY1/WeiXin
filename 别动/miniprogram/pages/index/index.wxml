@@ -1,0 +1,11 @@
+<view class="container">
+    <image src="/images/3.jpg" class="image"></image>
+    <view class="text1">智能小车来啦！</view>
+</view>
+<button bindtouchstart='goforward' class='button1' hover-class='hover1' bindtouchend='stopend'  size="mini">↑</button>
+
+<button bindtouchstart='turnleft' class='button2' hover-class='hover2' bindtouchend='stopend' size="mini">←</button>
+
+<button bindtouchstart='turnright' class='button3' hover-class='hover3' bindtouchend='stopend' size="mini">→</button>
+
+<button bindtouchstart='goback' class='button4' hover-class='hover4' bindtouchend='stopend' size="mini">↓</button>

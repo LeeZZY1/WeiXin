@@ -1,0 +1,34 @@
+Page({
+  data:{
+    markers:[],
+  },
+  onLoad:function(options){
+    var that=this;
+    wx.getLocation({
+      success:function(res){
+        console.log(res)
+        that.setData({
+          markers:[
+            {
+              latitude:res.latitude,
+              longitude:res.longitude,
+              iconPath:"../../images/wz4.png" ,
+              width:30,
+              height:30,
+              callout:{
+                content:"当前位置",
+                color:'brown',
+                fontSize:13,
+                borderRadius:5,
+                borderWidth:1,
+                borderColor:'blue',
+                padding:2,
+                display:'ALWAYS'
+              }
+            }
+          ]
+        })
+      } 
+    })
+  }
+})

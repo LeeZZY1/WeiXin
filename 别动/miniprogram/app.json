@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFCC00",
+    "navigationBarTitleText": "智能小车",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "color": "#FFCC33",
+    "selectedColor": "#FFCC33",
+    "position": "bottom",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/car.png",
+        "selectedIconPath": "images/car1.png",
+        "text": " 首 页 "
+      },
+      {
+        "pagePath": "pages/chooseLib/chooseLib",
+        "iconPath": "images/bluetooth.png",
+        "selectedIconPath": "images/bluetooth1.png",
+        "text": "蓝牙连接"
+      },
+      {
+        "pagePath": "pages/deployFunctions/deployFunctions",
+        "iconPath": "images/zxt.png",
+        "selectedIconPath": "images/zxt1.png",
+        "text": " 数 据 "
+      }
+    ]
+  },
+  "functionalPages": true,
+  "style": "v2",
+  "sitemapLocation": "sitemap75.json"
+}

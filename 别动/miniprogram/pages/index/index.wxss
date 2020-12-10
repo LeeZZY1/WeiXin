@@ -1,0 +1,59 @@
+.container{
+  margin-top: 20rpx;
+}
+
+.text1{
+  margin-top: 50rpx;
+  margin-left: 300rpx;
+}
+
+.text2{
+  margin-top: 50rpx;
+}
+
+.button1{
+  background-color: #fdeb82;
+  font-size: 30px;
+  border: 2px solid #f09e33;
+  position: absolute;
+  left: 350rpx;
+  margin-top: 150rpx;
+  }
+  .hover1{
+  background:rgb(231, 215, 71);
+  }
+  .button2{
+    background-color: #fdeb82;
+    font-size: 30px;
+    border: 2px solid #f09e33;
+  float:left;
+  position: absolute;
+  left: 200rpx;
+  margin-top: 300rpx;
+  }
+  .hover2{
+  background:rgb(231, 215, 71);
+  }
+  .button3{
+    background-color: #fdeb82;
+    font-size: 30px;
+    border: 2px solid #f09e33;
+  float:right;
+  position: absolute;
+  right:180rpx;
+  margin-top: 300rpx;
+  }
+  .hover3{
+  background:rgb(231, 215, 71);
+  }
+  .button4{
+    background-color: #fdeb82;
+    font-size: 30px;
+    border: 2px solid #f09e33;
+  position: absolute;
+  left: 350rpx;
+  margin-top: 300rpx;
+  }
+  .hover4{
+  background:rgb(231, 215, 71);
+  }
