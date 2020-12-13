@@ -165,6 +165,7 @@ Page({
             this.setData({
               canWrite: true
             })
+            console.log("can write")
             this._deviceId = deviceId
             this._serviceId = serviceId
             this._characteristicId = item.uuid

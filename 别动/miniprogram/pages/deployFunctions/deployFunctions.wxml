@@ -3,8 +3,8 @@
 <view wx:for="{{read}}" wx:for-index="id" wx:for-item="current_value">  
   <view>{{read[id].at}}-------{{read[id].value}}</view>
 </view> -->
-<!-- <canvas class = "canvas" id="chart1"
-canvas-id="humidity"></canvas> -->
+<canvas class = "canvas" id="chart1"
+canvas-id="humidity"></canvas>
 <!-- <canvas class = "canvas" id="chart2"
 canvas-id="light"></canvas> -->
 <canvas class = "canvas" id="chart3"

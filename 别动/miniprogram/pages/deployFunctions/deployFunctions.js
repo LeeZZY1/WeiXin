@@ -56,7 +56,7 @@ Page({
   getDatapoints: function () {
     return new Promise((resolve, reject) => {
       wx.request({
-          url: `https://api.heclouds.com/devices/${devicesId}/datapoints?datastream_id=DISTANCE,LEFT&limit=20`,
+          url: `https://api.heclouds.com/devices/${devicesId}/datapoints?datastream_id=DISTANCE,Humidity&limit=20`,
         /**
          * 添加HTTP报文的请求头, 
          * 其中api-key为OneNet的api文档要求我们添加的鉴权秘钥
@@ -115,7 +115,7 @@ Page({
     this.lineChart_tempe.updateData({
       categories: wheatherData.categories,
       series: [{
-        name: 'tempe',
+        name: 'DISTANCES',
         data: wheatherData.tempe,
         format: (val, name) => val.toFixed(2)
       }],
@@ -172,7 +172,7 @@ Page({
       animation: false,
       background: '#f5f5f5',
       series: [{
-        name: 'humidity',
+        name: 'temperature',
         data: wheatherData.humidity,
         format: function (val, name) {
           return val.toFixed(2);
@@ -182,7 +182,7 @@ Page({
         disableGrid: true
       },
       yAxis: {
-        title: 'humidity (%)',
+        title: 'temperature(℃)',
         format: function (val) {
           return val.toFixed(2);
         }

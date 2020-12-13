@@ -34,7 +34,7 @@ Page({
       deviceId: that.data.deviceId,
       serviceId: that.data.serviceId,
       characteristicId: that.data.characteristicId,
-      value: that.getBinaryData("ON1")
+      value: that.getBinaryData("ONA")
     });
   },
   turnleft: function () { //写入左转命令
@@ -43,7 +43,7 @@ Page({
       deviceId: that.data.deviceId,
       serviceId: that.data.serviceId,
       characteristicId: that.data.characteristicId,
-      value: that.getBinaryData("ON3")
+      value: that.getBinaryData("ONB")
     });
   },
   turnright: function () { //写入右转命令
@@ -52,7 +52,7 @@ Page({
       deviceId: that.data.deviceId,
       serviceId: that.data.serviceId,
       characteristicId: that.data.characteristicId,
-      value: that.getBinaryData("ON4")
+      value: that.getBinaryData("ONC")
     });
   },
   goback: function () { //写入后退命令
@@ -61,7 +61,7 @@ Page({
       deviceId: that.data.deviceId,
       serviceId: that.data.serviceId,
       characteristicId: that.data.characteristicId,
-      value: that.getBinaryData("ON2")
+      value: that.getBinaryData("OND")
     });
   },
   stopend: function () { //写入停止命令
@@ -70,7 +70,7 @@ Page({
       deviceId: that.data.deviceId,
       serviceId: that.data.serviceId,
       characteristicId: that.data.characteristicId,
-      value: that.getBinaryData("ON0")
+      value: that.getBinaryData("ONE")
     });
   },
   getBinaryData: function (message) { //将数据转为二进制数组
